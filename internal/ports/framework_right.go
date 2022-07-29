@@ -1,6 +1,6 @@
 package ports
 
 type DBPort interface {
-	CloseDBConnection() error
+	CloseDBConnection()
 	AddHistory(answer int32, operation string) error
 }

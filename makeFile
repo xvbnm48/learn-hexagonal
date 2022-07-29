@@ -1,0 +1,6 @@
+protoc --go_out=plugins=grpc:internal/adapters/framework/left/grpc --p
+roto_path=internal/adapters/framework/left/grpc/proto internal/adapters/framework/le
+ft/grpc/proto/*.proto
+
+
+protoc --go_out=plugins=grpc:internal/adapters/framework/left/grpc --proto_path=internal/adapters/framework/left/grpc/proto internal/adapters/framework/left/grpc/proto/arithmetic_svc.proto
